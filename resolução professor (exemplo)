@@ -1,0 +1,300 @@
+/*
+ Algoritmo 1 (nível bem superior):
+  * declarar variável RECEBIDO, PAGAMENTOS, SOMA, AUXILIO
+  * atribuir SOMA=0
+  * atribuir RECEBIDO=0
+  * atribuir PAGAMENTOS=0
+  * perguntar o valor de entrada da segunda
+  * ler o valor de entrada da segunda em AUXILIO
+  * somar AUXILIO em RECEBIDO
+  * perguntar o valor de saída da segunda
+  * ler o valor de entrada da segunda em AUXILIO 
+  * subtrair AUXILIO de PAGAMENTOS
+  * somar RECEBIDO com PAGAMENTOS e armazenar em SOMA 
+  * se SOMA for maior que 2000, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+  * senão se SOMA for menor que 500, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+
+  * perguntar o valor de entrada da terça
+  * ler o valor de entrada da terça em AUXILIO
+  * somar AUXILIO em RECEBIDO
+  * perguntar o valor de saída da terça
+  * ler o valor de entrada da terça em AUXILIO 
+  * subtrair AUXILIO de PAGAMENTOS
+  * somar RECEBIDO com PAGAMENTOS e armazenar em SOMA 
+  * se SOMA for maior que 2000, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+  * senão se SOMA for menor que 500, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+
+  * perguntar o valor de entrada da quarta
+  * ler o valor de entrada da quarta em AUXILIO
+  * somar AUXILIO em RECEBIDO
+  * perguntar o valor de saída da quarta
+  * ler o valor de entrada da quarta em AUXILIO 
+  * subtrair AUXILIO de PAGAMENTOS
+  * somar RECEBIDO com PAGAMENTOS e armazenar em SOMA 
+  * se SOMA for maior que 2000, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+  * senão se SOMA for menor que 500, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+
+  * perguntar o valor de entrada da quinta
+  * ler o valor de entrada da quinta em AUXILIO
+  * somar AUXILIO em RECEBIDO
+  * perguntar o valor de saída da quinta
+  * ler o valor de entrada da quinta em AUXILIO 
+  * subtrair AUXILIO de PAGAMENTOS
+  * somar RECEBIDO com PAGAMENTOS e armazenar em SOMA 
+  * se SOMA for maior que 2000, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+  * senão se SOMA for menor que 500, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+
+  * perguntar o valor de entrada da sexta
+  * ler o valor de entrada da sexta em AUXILIO
+  * somar AUXILIO em RECEBIDO
+  * perguntar o valor de saída da sexta
+  * ler o valor de entrada da sexta em AUXILIO 
+  * subtrair AUXILIO de PAGAMENTOS
+  * somar RECEBIDO com PAGAMENTOS e armazenar em SOMA 
+  * se SOMA for maior que 2000, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+  * senão se SOMA for menor que 500, imprimir na tela:
+       * conteúdo da variável RECEBIDO
+       * conteúdo da variável PAGAMENTOS
+       * conteúdo da variável SOMA
+ */
+
+/*
+ Algoritmo 2 (nível mais próximo da linguagem):
+    Variáveis:
+        float: RECEBIDO, PAGAMENTOS, SOMA, AUXILIO
+    Início:
+        RECEBIDO = 0
+        PAGAMENTOS = 0
+        SOMA = 0
+        perguntar entrada de segunda
+        ler em AUXILIO
+        RECEBIDO = RECEBIDO + AUXILIO
+        perguntar saida de segunda
+        ler em AUXILIO
+        PAGAMENTOS = PAGAMENTOS + AUXILIO
+        SOMA = RECEBIDO + PAGAMENTOS
+        Se SOMA > 2000:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        Senão, Se SOMA < 500:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        
+        perguntar entrada de terça
+        ler em AUXILIO
+        RECEBIDO = RECEBIDO + AUXILIO
+        perguntar saida de terça
+        ler em AUXILIO
+        PAGAMENTOS = PAGAMENTOS + AUXILIO
+        SOMA = RECEBIDO + PAGAMENTOS
+        Se SOMA > 2000:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        Senão, Se SOMA < 500:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        
+        perguntar entrada de quarta
+        ler em AUXILIO
+        RECEBIDO = RECEBIDO + AUXILIO
+        perguntar saida de quarta
+        ler em AUXILIO
+        PAGAMENTOS = PAGAMENTOS + AUXILIO
+        SOMA = RECEBIDO + PAGAMENTOS
+        Se SOMA > 2000:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        Senão, Se SOMA < 500:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        
+        perguntar entrada de quinta
+        ler em AUXILIO
+        RECEBIDO = RECEBIDO + AUXILIO
+        perguntar saida de quinta
+        ler em AUXILIO
+        PAGAMENTOS = PAGAMENTOS + AUXILIO
+        SOMA = RECEBIDO + PAGAMENTOS
+        Se SOMA > 2000:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        Senão, Se SOMA < 500:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        
+        perguntar entrada de sexta
+        ler em AUXILIO
+        RECEBIDO = RECEBIDO + AUXILIO
+        perguntar saida de sexta
+        ler em AUXILIO
+        PAGAMENTOS = PAGAMENTOS + AUXILIO
+        SOMA = RECEBIDO + PAGAMENTOS
+        Se SOMA > 2000:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+        Senão, Se SOMA < 500:
+            * imprimir RECEBIDO
+            * imprimir PAGAMENTOS
+            * imprimir SOMA
+ */
+
+#include <stdio.h>
+
+int main() {
+    float recebido, pagamentos, soma, auxilio;
+    recebido = 0;
+    pagamentos = 0;
+    soma = 0;
+
+    // Segunda-Feira:
+    printf("Digite o valor recebido na segunda-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na segunda-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Terça-Feira:
+    printf("Digite o valor recebido na terça-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na terça-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Quarta-Feira:
+    printf("Digite o valor recebido na quarta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na quarta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Quinta-Feira:
+    printf("Digite o valor recebido na quinta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na quinta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Sexta-Feira:
+    printf("Digite o valor recebido na sexta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na sexta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+}

@@ -6,15 +6,17 @@ a)
    return 0;
 
    }
+   
+
+2. Cria uma variável nomeada meuNumero e atribua o valor de 50 a ela.
 
 b)
 // Comentário de uma linha simples
 /* Comentário de várias linhas */
 
-2. Cria uma variável nomeada meuNumero e atribua o valor de 50 a ela.
-
    int meuNumero;
    meuNumero = 50;
+   
 
 3. Use o correto especificador de formato para imprimir o valor da variável na tela:
 
@@ -40,6 +42,7 @@ d)
    printf ("%d %c %.1f %d\n", meuNumero, meuCaractere, meuDecimal, meuNumero);
    
    
+   
  4. Crie variáveis e crie o código necessário para que seja impresso na tela as seguintes mensagens:
  
  a)
@@ -60,6 +63,7 @@ d)
       return o;
     
     }
+    
     
  b) 
  => o produto de 5 e 5 é 25.
@@ -113,6 +117,7 @@ d)
       return 0;
     
    }
+   
   
 5. Complete o código para que seja exibida a soma de 5 + 10 usando as variáveis x e y: 
 
@@ -121,10 +126,14 @@ d)
  
  printf ("%d", x+y);
  
+ 
+ 
 6. Complete as partes que estão faltando para criar as três variáveis do mesmo tipo:
 
 int x = 5, y = 6, z = 50;
 printf ("%d", x + y + z);
+
+
 
 7. Complete as variáveis abaixo com o tipo correto:
 
@@ -132,11 +141,15 @@ int meuNumero = 5;
 float meuNumeroDecimal = 5.99;
 char meuCaractere = 'D';
 
+
+
 8. Complete o código abaixo para multiplicar 5 com 10 e emprimir o resultado:
 
 int x =10;
 int y = 5;
 printf ("%d", x * y);
+
+
 
 9. Coloque o operador correto no código abaixo para que ele imprima as saídas desejadas (valor desejado impresso na tela):
 
@@ -161,10 +174,12 @@ printf ("x: %d", ?);
 //saída desejada: 11 12
 
 
+
 10. Complete com somente o valor desejado para que o valor 5 seja adicionado à variável 10.
 
 int x = 10;
 x + 5;
+
 
 
 11. Complete as condições abaixo da forma certa para que os códigos tenham a saída desejada:
@@ -204,6 +219,7 @@ a)
  // saída desejada: x (20) é maior ou igual a y (20)
  
  
+ 
 11. Complete o código abaixo para que funcione corretamente:
 
 int aux;
@@ -224,7 +240,7 @@ if (aux > 20 & aux < 40) {
 }
 
 
-!2. Complete o código abaixo para que imprima "1" se x for igual a y, "2" se x for maoir que 
+12. Complete o código abaixo para que imprima "1" se x for igual a y, "2" se x for maoir que 
 
 int x = 50;
 int y = 50;
@@ -240,6 +256,8 @@ printf ("3");
 
 }
 
+
+
 13. Corrija os códigos abaixo: 
 
 a)
@@ -251,6 +269,7 @@ correto:
 int num;
 printf ("Digite um número:");
 scanf ("%d", & num);
+
 
 
 b) 

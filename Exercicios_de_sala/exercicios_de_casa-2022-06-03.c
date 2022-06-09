@@ -60,7 +60,7 @@ d)
     
       printf ("A soma de n1 e n2 é: %d", n1,n2, soma);
     
-      return o;
+      return 0;
     
     }
     
@@ -87,16 +87,9 @@ d)
   c) 
   Opcao 'A': 24, opcao 'B': 30.
   
-  #include <stdio.h>
-   
-  int main(){
-  
-  
-  
-  
-  ?
-  
-  
+  char c1 = 'A', c2 = 'B';
+  int n1 = 24, n2 = 30;
+  printf ("Opcão '%c': %d, opcao '%c': %d\n", c1, n1, c2, n2);
   
   
   
@@ -112,7 +105,7 @@ d)
       
       printf ("Digite uma letra:");
       scanf ("%c", &caractere);
-      printf ("caractere digitado: %c", caractere);
+      printf ("[caractere digitado:\" %c\"]\n", caractere);
     
       return 0;
     
@@ -163,14 +156,14 @@ printf ("x: %d", ++x);
 b)
 int x = 10;
 printf ("x: %d", ++x);
-printf ("x: %d", ++x);
+printf ("x: %d", x);
 //saída desejada: 11 11
 
 
 c)
 int x = 10;
 printf ("x: %d", ++x);
-printf ("x: %d", ?);
+printf ("x: %d", ++x);
 //saída desejada: 11 12
 
 

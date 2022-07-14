@@ -8,8 +8,12 @@ int main()
        
    for (i=1; i<50; i+=2)
    {
-       printf( "%d %d\n", i, i+1);
+       printf( "%d %d: %d\n", i, i+1, vet[i]+vet[i+1]);
    }
  
 }
+
+
+
+
 
